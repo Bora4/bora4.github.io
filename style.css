@@ -1,3 +1,69 @@
 html {
-    background-color: #B7FF6C;
+    background-color: tan !important;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: tan !important;
+}
+
+h1 {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none !important;
+    color: inherit !important;
+}
+
+q {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.head-row {
+    background-color: #333;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.head-row ul {
+    display: flex;
+    justify-content: space-around;
+    color: rgb(194, 194, 194);
+}
+
+.head-row li {
+    float: left;
+}
+
+.head-row li:hover {
+    color: #8ebdac;
+}
+
+.main-col {
+    padding: 50px;
+}
+
+.body-row {
+    padding: 80px 50px;
+}
+
+.disabled {
+    pointer-events: none;
+    cursor: default;
+}
+
+.link-list li a {
+    text-decoration: underline !important;
+}
+
+.more-info {
+    text-decoration: underline !important;
 }
