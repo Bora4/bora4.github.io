@@ -1,10 +1,6 @@
-html {
-    background-color: tan !important;
-    overflow-x: hidden;
-}
-
 body {
     background-color: tan !important;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -52,7 +48,12 @@ q {
 }
 
 .body-row {
-    padding: 80px 50px;
+    padding: 50px 50px 5px;
+}
+
+.subtext-row {
+    padding-top: 18px;
+    padding-bottom: 9px;
 }
 
 .disabled {
@@ -66,4 +67,9 @@ q {
 
 .more-info {
     text-decoration: underline !important;
+}
+
+.subtitle {
+    padding-left: 50px !important;
+    padding-top: 15px;
 }
